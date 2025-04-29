@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from utilities import visualize_classifier  # Якщо у вас є така утиліта для візуалізації
 
 # Вхідний файл, який містить дані
-input_file = 'data_multivar_nb.txt'
+input_file = '../data_multivar_nb.txt'
 
 # Завантаження даних з файлу за допомогою pandas
 df = pd.read_csv(input_file)

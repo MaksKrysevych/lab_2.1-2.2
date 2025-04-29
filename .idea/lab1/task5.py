@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from utilities import visualize_classifier
 
 # Вхідний файл
-input_file = 'data_multivar_nb1.txt'
+input_file = '../data_multivar_nb1.txt'
 
 # Завантаження даних
 data = np.loadtxt(input_file, delimiter=',')
